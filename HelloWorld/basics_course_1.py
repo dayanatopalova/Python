@@ -92,3 +92,15 @@ while i < len(numbers):
     print(numbers[i])
     i += 1
 
+#range function
+numbers = range(5) #range is an object, so we need to iterate to get only the numbers printed out
+print(numbers)
+
+for number in numbers:
+    print (number)
+
+numbers = range(5, 10, 2) #numbers from 5 to 10 in step of 2
+
+#tuples - immutable
+sequence = (1, 2, 3, 3, 4, 5)
+numbers.count(3)
