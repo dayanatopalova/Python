@@ -61,3 +61,34 @@ else:
     converted = float(weight) * 0.45
     print("Weight in Kgs is: " + str(converted))
 
+#while loops
+i = 1
+while i <= 5:
+    print(i * '*') #we can multiply a number by a string :o :D
+    i += 1 #no ++ or -- in Python
+
+
+#complex types
+#lists
+names = ["Dayana", "Alex", "Svetla", "Milen"] #there are negative indexes in Python --> from last to first
+print(names[0:3])
+
+numbers = [1, 2, 3, 4, 5]
+numbers.insert(1, 10)
+print(numbers)
+numbers.append(6)
+print(1 in numbers) #output--> boolean
+print(len(numbers))
+numbers.remove(1)
+
+
+#for loop
+numbers = [1, 2, 3, 4, 5]
+for item in numbers:
+    print(item)
+
+i = 0
+while i < len(numbers):
+    print(numbers[i])
+    i += 1
+
