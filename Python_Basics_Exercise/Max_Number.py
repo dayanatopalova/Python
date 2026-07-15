@@ -9,10 +9,13 @@ while True:
 
     numbers.append(int(value))
 
-largest = numbers[0]
+if not numbers:
+    print("You have to enter at least one number first.")
+else:
+    largest = numbers[0]
 
-for number in numbers:
-    if number > largest:
-        largest = number
+    for number in numbers:
+        if number > largest:
+            largest = number
 
-print(f"The number {largest} is the largest one.")
+    print(f"The number {largest} is the largest one.")
